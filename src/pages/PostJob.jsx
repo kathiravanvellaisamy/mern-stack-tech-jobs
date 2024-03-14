@@ -27,6 +27,28 @@ const PostJob = () => {
             className="bg-slate-300 py-2 px-2 rounded-md focus:outline-none"
           />
         </div>
+        <div className=" py-2 flex flex-col gap-2">
+          <label htmlFor="" className="text-slate-700 font-semibold">
+            Website URL
+          </label>
+          <input
+            type="url"
+            name=""
+            id=""
+            className="bg-slate-300 py-2 px-2 rounded-md focus:outline-none"
+          />
+        </div>
+        <div className=" py-2 flex flex-col gap-2">
+          <label htmlFor="" className="text-slate-700 font-semibold">
+            Contact Person
+          </label>
+          <input
+            type="text"
+            name=""
+            id=""
+            className="bg-slate-300 py-2 px-2 rounded-md focus:outline-none"
+          />
+        </div>
         <div className="py-2 flex flex-col gap-2">
           <label htmlFor="" className="text-slate-700 font-semibold">
             Address
@@ -128,7 +150,19 @@ const PostJob = () => {
             className="bg-slate-300 py-2 px-2 rounded-md focus:outline-none"
           ></textarea>
         </div>
-        <div className="my-2"></div>
+        <div className="py-2 flex flex-col gap-2">
+          <label htmlFor="" className="text-slate-700 font-semibold">
+            Company Profile
+          </label>
+          <textarea
+            type="text"
+            name=""
+            id=""
+            rows={5}
+            className="bg-slate-300 py-2 px-2 rounded-md focus:outline-none"
+          ></textarea>
+        </div>
+
         <div className="flex my-2 justify-start items-center gap-3">
           <button className="border-2 bg-slate-900 border-slate-900 text-white rounded-md py-2 px-3 md:block text-md  font-semibold">
             Post Job
